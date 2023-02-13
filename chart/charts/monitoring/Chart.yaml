@@ -1,0 +1,13 @@
+apiVersion: v2
+name: monitoring
+description: Chart to deploy monitoring components
+version: 0.1.0
+keywords:
+- monitoring
+maintainers:
+- name: JoaoBraveCoding
+  email: jmarcal@redhat.com
+dependencies:
+  - name: kube-prometheus-stack
+    version: "44.2.*"
+    repository: https://prometheus-community.github.io/helm-charts

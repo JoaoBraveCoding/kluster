@@ -1,0 +1,8 @@
+kube-prometheus-stack:
+  namespaceOverride: monitoring
+  grafana:
+    namespaceOverride: monitoring
+  kube-state-metrics:
+    namespaceOverride: monitoring
+  prometheus-node-exporter:
+    namespaceOverride: monitoring

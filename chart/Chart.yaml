@@ -1,0 +1,10 @@
+apiVersion: v2
+name: kluster
+description: Chart to deploy components of a GitOps cluster
+version: 0.1.0
+keywords:
+- kind
+- monitoring
+maintainers:
+- name: JoaoBraveCoding
+  email: jmarcal@redhat.com
